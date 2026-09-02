@@ -113,6 +113,10 @@
       <span class="tracking-tight">3. Laboratorios Magistrales BPE</span>
       <span class="bg-slate-200 text-slate-700 text-xs px-2 py-0.5 rounded-full font-bold">12</span>
     </button>
+    <button onclick="switchTab('tab-inteligencia')" id="btn-tab-intel" class="tab-inactive px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer">
+      <span class="tracking-tight">4. Inteligencia de Mercado Pet Care</span>
+      <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-0.5 rounded-full font-bold">Euromonitor 2026</span>
+    </button>
   </nav>
 
   <!-- ==================== TAB 1: MEDICAMENTOS Y BIOLÓGICOS ==================== -->
@@ -523,6 +527,247 @@
 
   </main>
 
+
+  <!-- ==================== TAB 4: INTELIGENCIA DE MERCADO PET CARE (EUROMONITOR) ==================== -->
+  <main id="tab-inteligencia" class="space-y-6 hidden">
+    
+    <!-- Top Intelligence Banner -->
+    <div class="card p-5 bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
+      <div>
+        <div class="flex items-center gap-2.5 mb-1.5">
+          <span class="bg-indigo-600 text-white text-[11px] font-bold px-2.5 py-0.5 rounded uppercase tracking-wider">Euromonitor International / Passport 2026</span>
+          <span class="text-xs text-slate-300">Corte de Reporte: Junio 2026 | Proyecciones a 2031</span>
+        </div>
+        <h2 class="text-lg md:text-xl font-bold tracking-tight text-white">Inteligencia Estratégica del Mercado de Pet Care y Nutrición Animal en Colombia</h2>
+        <p class="text-xs text-slate-300 mt-1 max-w-3xl">Dimensionamiento de mercado, series históricas 2021-2026 y proyecciones a 2031, cuotas por fabricante y marca, canales de comercialización y cadena de materias primas.</p>
+      </div>
+      <div class="flex flex-wrap items-center gap-2">
+        <a href="data/Pet_Care_in_Colombia_Euromonitor_2026.pdf" target="_blank" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-3.5 py-2 rounded transition flex items-center gap-1.5 shadow-sm">
+          <span>Descargar Reporte PDF</span>
+        </a>
+        <a href="data/euromonitor_market_sizes_forecast_colombia.csv" download class="bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 text-xs font-medium px-3 py-2 rounded transition">
+          <span>Datos CSV</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- Euromonitor KPIs -->
+    <section class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+      <div class="card p-4 border-l-4 border-indigo-600">
+        <span class="text-xs text-slate-500 font-semibold uppercase tracking-wider">Mercado Retail Colombia 2026</span>
+        <div class="text-2xl font-bold text-indigo-950 mt-1">$8.30 Billones</div>
+        <span class="text-[11px] text-emerald-600 font-medium">+9.1% crecimiento en 2026</span>
+      </div>
+      <div class="card p-4 border-l-4 border-purple-600">
+        <span class="text-xs text-slate-500 font-semibold uppercase tracking-wider">Proyección a 2031</span>
+        <div class="text-2xl font-bold text-purple-900 mt-1">$12.77 Billones</div>
+        <span class="text-[11px] text-purple-700 font-medium">CAGR 2026-2031: 9.0%</span>
+      </div>
+      <div class="card p-4 border-l-4 border-blue-600">
+        <span class="text-xs text-slate-500 font-semibold uppercase tracking-wider">Alimento Perros (Dog Food)</span>
+        <div class="text-2xl font-bold text-blue-900 mt-1">$4.30 Billones</div>
+        <span class="text-[11px] text-slate-500 font-medium">440.814 Ton (51.8% del valor)</span>
+      </div>
+      <div class="card p-4 border-l-4 border-pink-600">
+        <span class="text-xs text-slate-500 font-semibold uppercase tracking-wider">Alimento Gatos (Cat Food)</span>
+        <div class="text-2xl font-bold text-pink-900 mt-1">$2.52 Billones</div>
+        <span class="text-[11px] text-pink-700 font-bold">+17.0% expansión acelerada</span>
+      </div>
+      <div class="card p-4 border-l-4 border-emerald-600">
+        <span class="text-xs text-slate-500 font-semibold uppercase tracking-wider">Canal E-Commerce (2026)</span>
+        <div class="text-2xl font-bold text-emerald-900 mt-1">16% Cuota</div>
+        <span class="text-[11px] text-emerald-600 font-medium">+20% crecimiento anual</span>
+      </div>
+      <div class="card p-4 border-l-4 border-amber-600">
+        <span class="text-xs text-slate-500 font-semibold uppercase tracking-wider">Hogares en Colombia</span>
+        <div class="text-2xl font-bold text-amber-900 mt-1">19.5 Millones</div>
+        <span class="text-[11px] text-slate-500 font-medium">Ingreso Med: $45.09 M COP</span>
+      </div>
+    </section>
+
+    <!-- Charts Row 1: Time Series & Categories -->
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div class="card p-4">
+        <div class="flex justify-between items-center mb-3">
+          <h3 class="text-xs font-bold text-slate-800 uppercase tracking-wider">Evolución Histórica y Proyección de Ventas en Colombia (2021–2031p)</h3>
+          <span class="text-[11px] text-slate-400">COP Billones (RSP)</span>
+        </div>
+        <div class="chart-container">
+          <canvas id="chartEuromonitorEvolution"></canvas>
+        </div>
+      </div>
+
+      <div class="card p-4">
+        <div class="flex justify-between items-center mb-3">
+          <h3 class="text-xs font-bold text-slate-800 uppercase tracking-wider">Composición del Mercado de Pet Care por Categoría (Colombia 2026)</h3>
+          <span class="text-[11px] text-slate-400">COP Billones / Participación</span>
+        </div>
+        <div class="chart-container">
+          <canvas id="chartEuromonitorCategories"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Charts Row 2: Company Shares, Channels & Regional Comparison -->
+    <section class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="card p-4">
+        <div class="flex justify-between items-center mb-3">
+          <h3 class="text-xs font-bold text-slate-800 uppercase tracking-wider">Cuotas por Fabricante (2025/2026)</h3>
+          <span class="text-[11px] text-slate-400">% Cuota Valor</span>
+        </div>
+        <div class="chart-container">
+          <canvas id="chartEuromonitorCompanies"></canvas>
+        </div>
+      </div>
+
+      <div class="card p-4">
+        <div class="flex justify-between items-center mb-3">
+          <h3 class="text-xs font-bold text-slate-800 uppercase tracking-wider">Canales de Distribución Retail (2026)</h3>
+          <span class="text-[11px] text-slate-400">% Participación</span>
+        </div>
+        <div class="chart-container">
+          <canvas id="chartEuromonitorChannels"></canvas>
+        </div>
+      </div>
+
+      <div class="card p-4">
+        <div class="flex justify-between items-center mb-3">
+          <h3 class="text-xs font-bold text-slate-800 uppercase tracking-wider">Mercado Regional en USD (2026)</h3>
+          <span class="text-[11px] text-slate-400">USD Millones</span>
+        </div>
+        <div class="chart-container">
+          <canvas id="chartEuromonitorRegional"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Competitive Brand Portfolio and Strategic Dynamics Table -->
+    <section class="card p-4">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-2 mb-3">
+        <div>
+          <h3 class="text-sm font-bold text-slate-900 tracking-tight">Ecosistema Competitivo: Empresas, Marcas Líderes y Movimientos Estratégicos (2025/2026)</h3>
+          <p class="text-xs text-slate-500">Mapeo de marcas registradas ante el ICA, segmentos de valor y adquisiciones corporativas recientes</p>
+        </div>
+      </div>
+
+      <div class="overflow-x-auto border border-slate-200 rounded">
+        <table class="w-full text-left text-xs">
+          <thead class="bg-slate-100 text-slate-700 font-semibold border-b border-slate-200 uppercase text-[10px] tracking-wider">
+            <tr>
+              <th class="p-2.5">Empresa Matriz / Titular</th>
+              <th class="p-2.5">Cuota Mercado (%)</th>
+              <th class="p-2.5">Marcas Principales</th>
+              <th class="p-2.5">Segmento de Precio</th>
+              <th class="p-2.5">Enfoque Nutricional / Terapéutico</th>
+              <th class="p-2.5">Movimientos Estratégicos Recientes</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-100 text-slate-800">
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-2.5 font-bold text-blue-900">Italcol de Occidente Ltda.</td>
+              <td class="p-2.5 font-bold text-emerald-700">22.4%</td>
+              <td class="p-2.5 font-semibold text-slate-900">Ringo, Mirringo, Agility Gold, Chunky (aliado)</td>
+              <td class="p-2.5"><span class="bg-blue-100 text-blue-800 text-[10px] px-2 py-0.5 rounded font-semibold">Masivo / Super Premium</span></td>
+              <td class="p-2.5 text-slate-600">Nutrición balanceada seca/húmeda canina y felina</td>
+              <td class="p-2.5 text-slate-600 text-[11px]">Líder indiscutible en volumen nacional; consolidación de la línea Agility Gold</td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-2.5 font-bold text-blue-900">Alimentos Polar de Colombia S.A.</td>
+              <td class="p-2.5 font-bold text-emerald-700">13.8%</td>
+              <td class="p-2.5 font-semibold text-slate-900">Dogourmet, Donkan, Oh Mai Gat</td>
+              <td class="p-2.5"><span class="bg-amber-100 text-amber-800 text-[10px] px-2 py-0.5 rounded font-semibold">Medio / Masivo</span></td>
+              <td class="p-2.5 text-slate-600">Alta palatabilidad y snacks caninos/felinos</td>
+              <td class="p-2.5 text-slate-600 text-[11px]">Crecimiento exponencial de 'Oh Mai Gat' en el segmento felino urbano</td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-2.5 font-bold text-blue-900">Nestlé Purina PetCare Colombia S.A.</td>
+              <td class="p-2.5 font-bold text-emerald-700">13.5%</td>
+              <td class="p-2.5 font-semibold text-slate-900">Purina Pro Plan, Dog Chow, Cat Chow, Felix, Friskies, Beneful</td>
+              <td class="p-2.5"><span class="bg-purple-100 text-purple-800 text-[10px] px-2 py-0.5 rounded font-semibold">Super Premium / Clínico / Masivo</span></td>
+              <td class="p-2.5 text-slate-600">Nutrición clínica veterinaria y fórmulas específicas</td>
+              <td class="p-2.5 text-slate-600 text-[11px]">Liderazgo en prescripción médica veterinaria con Pro Plan Veterinary Diets</td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-2.5 font-bold text-blue-900">Solla S.A.</td>
+              <td class="p-2.5 font-bold text-emerald-700">12.1%</td>
+              <td class="p-2.5 font-semibold text-slate-900">Chunky, Nutrecat, Nutre Can, Q-ida Cat</td>
+              <td class="p-2.5"><span class="bg-emerald-100 text-emerald-800 text-[10px] px-2 py-0.5 rounded font-semibold">Medio / Premium Nacional</span></td>
+              <td class="p-2.5 text-slate-600">Alimentos secos, húmedos en pouch y bocaditos</td>
+              <td class="p-2.5 text-slate-600 text-[11px]">Desarrollo de snacks funcionales e innovación en empaques monodosis</td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-2.5 font-bold text-blue-900">Mars / Royal Canin Colombia S.A.S.</td>
+              <td class="p-2.5 font-bold text-emerald-700">9.2%</td>
+              <td class="p-2.5 font-semibold text-slate-900">Royal Canin, Pedigree, Whiskas, Chappi, Cesar</td>
+              <td class="p-2.5"><span class="bg-purple-100 text-purple-800 text-[10px] px-2 py-0.5 rounded font-semibold">Clínico Especializado / Masivo</span></td>
+              <td class="p-2.5 text-slate-600">Dietas por patología, raza, edad y tamaño</td>
+              <td class="p-2.5 text-slate-600 text-[11px]">Fuerte penetración en clínicas especializadas y programas de adopción</td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-2.5 font-bold text-blue-900">Gabrica S.A. (Comercializadora Bogotana)</td>
+              <td class="p-2.5 font-bold text-emerald-700">4.5%</td>
+              <td class="p-2.5 font-semibold text-slate-900">Healthy Bites, Hill's Science Diet, 1st Choice, Pronature</td>
+              <td class="p-2.5"><span class="bg-indigo-100 text-indigo-800 text-[10px] px-2 py-0.5 rounded font-semibold">Super Premium / Importado</span></td>
+              <td class="p-2.5 text-slate-600">Salud preventiva, dermatológica y renal</td>
+              <td class="p-2.5 text-slate-600 text-[11px]">Lanzamiento de Healthy Bites (snacks con prebióticos) en Colombia, Perú y Chile</td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-2.5 font-bold text-blue-900">Grupo Diana (Adquisición Alimentos Nutrion)</td>
+              <td class="p-2.5 font-bold text-emerald-700">1.5%</td>
+              <td class="p-2.5 font-semibold text-slate-900">Nutrion, Ringui, Monello</td>
+              <td class="p-2.5"><span class="bg-amber-100 text-amber-800 text-[10px] px-2 py-0.5 rounded font-semibold">Económico / Masivo</span></td>
+              <td class="p-2.5 text-slate-600">Nutrición de valor para canal tradicional</td>
+              <td class="p-2.5 text-slate-600 text-[11px]">Entrada estratégica del gigante arrocero Diana a Pet Care vía M&A en 2025</td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition">
+              <td class="p-2.5 font-bold text-blue-900">True Blue (Respaldo Grupo Alpina)</td>
+              <td class="p-2.5 font-bold text-emerald-700">0.8%</td>
+              <td class="p-2.5 font-semibold text-slate-900">True Blue Steam-Cooked Nutrition</td>
+              <td class="p-2.5"><span class="bg-teal-100 text-teal-800 text-[10px] px-2 py-0.5 rounded font-semibold">Ultra Premium / D2C</span></td>
+              <td class="p-2.5 text-slate-600">Comida cocida al vapor sin ultraprocesados</td>
+              <td class="p-2.5 text-slate-600 text-[11px]">Startup colombiana de nutrición personalizada con modelo de suscripción digital</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Raw Materials & Industrial Supply Chain Explorer -->
+    <section class="card p-4">
+      <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-2 mb-3">
+        <div>
+          <h3 class="text-sm font-bold text-slate-900 tracking-tight">Cadena de Suministro Industrial: Insumos, Materias Primas y Formulación de Pet Care</h3>
+          <p class="text-xs text-slate-500">Consumo físico en Toneladas y % de formulación de materias primas (Acidulantes, Espesantes CMC, Botánicos, Vitaminas y Probióticos)</p>
+        </div>
+        <div>
+          <input type="text" id="ingred-search" oninput="filterIngredientsTable()" placeholder="Buscar ingrediente (ej. Ácido cítrico, Vitamina E)..." class="px-3 py-1.5 text-xs bg-slate-50 border border-slate-300 rounded focus:outline-none focus:ring-1 focus:ring-blue-500">
+        </div>
+      </div>
+
+      <div class="overflow-x-auto border border-slate-200 rounded max-h-96">
+        <table class="w-full text-left text-xs">
+          <thead class="bg-slate-100 text-slate-700 font-semibold border-b border-slate-200 uppercase text-[10px] tracking-wider sticky top-0">
+            <tr>
+              <th class="p-2.5">Categoría de Insumo</th>
+              <th class="p-2.5">Ingrediente / Materia Prima</th>
+              <th class="p-2.5">Función Técnica en Formulación</th>
+              <th class="p-2.5">Unidad</th>
+              <th class="p-2.5">2021</th>
+              <th class="p-2.5">2022</th>
+              <th class="p-2.5">2023</th>
+              <th class="p-2.5">2024</th>
+              <th class="p-2.5 font-bold text-indigo-900">2025</th>
+            </tr>
+          </thead>
+          <tbody id="ingred-table-body" class="divide-y divide-slate-100 text-slate-800">
+            <!-- Dynamically populated via JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
   <!-- MODAL: FICHA TÉCNICA DETALLADA DEL REGISTRO SANITARIO ICA -->
   <div id="product-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 modal-overlay hidden">
     <div id="modal-content-printable" class="bg-white rounded-lg shadow-2xl max-w-4xl w-full max-h-[90vh] flex flex-col overflow-hidden border border-slate-300">
@@ -672,6 +917,7 @@
       initCosmeticosCharts();
       initMagistralesCharts();
       populateMagistralesTable();
+      populateIngredientsTable();
       applyFilters();
       applyCosmFilters();
       
@@ -686,17 +932,21 @@
       const tabMeds = document.getElementById('tab-medicamentos');
       const tabCosm = document.getElementById('tab-cosmeticos');
       const tabMag = document.getElementById('tab-magistrales');
+      const tabIntel = document.getElementById('tab-inteligencia');
       const btnMeds = document.getElementById('btn-tab-meds');
       const btnCosm = document.getElementById('btn-tab-cosm');
       const btnMag = document.getElementById('btn-tab-mag');
+      const btnIntel = document.getElementById('btn-tab-intel');
 
       tabMeds.classList.add('hidden');
       tabCosm.classList.add('hidden');
       tabMag.classList.add('hidden');
+      tabIntel.classList.add('hidden');
 
       btnMeds.className = 'tab-inactive px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
       btnCosm.className = 'tab-inactive px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
       btnMag.className = 'tab-inactive px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
+      btnIntel.className = 'tab-inactive px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
 
       if (tabId === 'tab-medicamentos') {
         tabMeds.classList.remove('hidden');
@@ -704,9 +954,16 @@
       } else if (tabId === 'tab-cosmeticos') {
         tabCosm.classList.remove('hidden');
         btnCosm.className = 'tab-active px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
-      } else {
+      } else if (tabId === 'tab-magistrales') {
         tabMag.classList.remove('hidden');
         btnMag.className = 'tab-active px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
+      } else {
+        tabIntel.classList.remove('hidden');
+        btnIntel.className = 'tab-active px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
+        if (!window.euromonitorChartsInitialized) {
+          initEuromonitorCharts();
+          window.euromonitorChartsInitialized = true;
+        }
       }
     }
 
@@ -1036,6 +1293,181 @@
       cosmPageSize = parseInt(document.getElementById('cosm-page-size').value);
       cosmCurrentPage = 1;
       updateCosmTable();
+    }
+
+
+    // Euromonitor Data and Charts Initialization
+    const ingredientsData = [
+      { cat: "Acidulantes", item: "Ácido Cítrico", func: "Acidificante, conservante y palatabilizante", unit: "Tonnes", y21: "5.543", y22: "5.581", y23: "5.552", y24: "5.522", y25: "5.506" },
+      { cat: "Acidulantes", item: "Ácido Láctico", func: "Regulador de pH y antimicrobiano natural", unit: "Tonnes", y21: "4.093", y22: "4.154", y23: "4.168", y24: "4.187", y25: "4.200" },
+      { cat: "Acidulantes", item: "Ácido Fosfórico", func: "Acidificante urinario en nutrición felina", unit: "Tonnes", y21: "3.425", y22: "3.434", y23: "3.411", y24: "3.411", y25: "3.429" },
+      { cat: "Acidulantes", item: "Ácido Acético", func: "Preservante orgánico y desinfectante", unit: "Tonnes", y21: "2.127", y22: "2.120", y23: "2.086", y24: "2.039", y25: "2.019" },
+      { cat: "Acidulantes", item: "Ácido Málico", func: "Acentuador de sabor y quelante", unit: "Tonnes", y21: "364", y22: "374", y23: "384", y24: "394", y25: "404" },
+      { cat: "Espesantes & Fibras", item: "Carboximetilcelulosa (CMC)", func: "Agente gelificante en alimentos húmedos", unit: "Tonnes", y21: "1.240", y22: "1.280", y23: "1.310", y24: "1.330", y25: "1.360" },
+      { cat: "Espesantes & Fibras", item: "Polisacáridos y Oligosacáridos", func: "Prebióticos (FOS/MOS) salud digestiva", unit: "Tonnes", y21: "8.450", y22: "8.720", y23: "8.990", y24: "9.210", y25: "9.540" },
+      { cat: "Espesantes & Fibras", item: "Agar y Goma Guar", func: "Emulsionante en recetas 'en salsa / gravy'", unit: "Tonnes", y21: "890", y22: "920", y23: "940", y24: "960", y25: "990" },
+      { cat: "Nutricéuticos", item: "Vitamina E (Tocoferoles)", func: "Antioxidante celular y conservante natural", unit: "Tonnes", y21: "2.110", y22: "2.180", y23: "2.240", y24: "2.290", y25: "2.350" },
+      { cat: "Nutricéuticos", item: "Extractos Botánicos", func: "Fitonutrientes (romero, té verde, cúrcuma)", unit: "Tonnes", y21: "1.450", y22: "1.520", y23: "1.600", y24: "1.680", y25: "1.770" },
+      { cat: "Nutricéuticos", item: "Nucleótidos & Probióticos", func: "Inmunidad y microbiota intestinal", unit: "Tonnes", y21: "620", y22: "680", y23: "740", y24: "810", y25: "890" }
+    ];
+
+    function populateIngredientsTable(data = ingredientsData) {
+      const tbody = document.getElementById('ingred-table-body');
+      if (!tbody) return;
+      tbody.innerHTML = '';
+      data.forEach(item => {
+        const tr = document.createElement('tr');
+        tr.className = 'hover:bg-slate-50 transition';
+        tr.innerHTML = `
+          <td class="p-2.5 font-semibold text-slate-700">${item.cat}</td>
+          <td class="p-2.5 font-bold text-indigo-900">${item.item}</td>
+          <td class="p-2.5 text-slate-600">${item.func}</td>
+          <td class="p-2.5 text-slate-500 font-mono text-[11px]">${item.unit}</td>
+          <td class="p-2.5 text-slate-700">${item.y21}</td>
+          <td class="p-2.5 text-slate-700">${item.y22}</td>
+          <td class="p-2.5 text-slate-700">${item.y23}</td>
+          <td class="p-2.5 text-slate-700">${item.y24}</td>
+          <td class="p-2.5 font-bold text-indigo-950">${item.y25}</td>
+        `;
+        tbody.appendChild(tr);
+      });
+    }
+
+    function filterIngredientsTable() {
+      const term = document.getElementById('ingred-search').value.toLowerCase().trim();
+      const filtered = ingredientsData.filter(i => 
+        i.item.toLowerCase().includes(term) || 
+        i.cat.toLowerCase().includes(term) || 
+        i.func.toLowerCase().includes(term)
+      );
+      populateIngredientsTable(filtered);
+    }
+
+    function initEuromonitorCharts() {
+      // 1. Evolución Histórica y Forecast
+      const ctxEvol = document.getElementById('chartEuromonitorEvolution').getContext('2d');
+      new Chart(ctxEvol, {
+        type: 'bar',
+        data: {
+          labels: ['2021', '2022', '2023', '2024', '2025', '2026p', '2027p', '2028p', '2029p', '2030p', '2031p'],
+          datasets: [
+            {
+              type: 'line',
+              label: 'Tendencia Histórica & Proyección ($ Billones)',
+              data: [4.59, 5.64, 6.69, 7.03, 7.60, 8.30, 9.05, 9.86, 10.75, 11.71, 12.77],
+              borderColor: '#4f46e5',
+              borderWidth: 3,
+              pointBackgroundColor: '#4f46e5',
+              pointRadius: 4,
+              tension: 0.3,
+              fill: false
+            },
+            {
+              type: 'bar',
+              label: 'Ventas Retail Totales ($ Billones)',
+              data: [4.59, 5.64, 6.69, 7.03, 7.60, 8.30, 9.05, 9.86, 10.75, 11.71, 12.77],
+              backgroundColor: '#818cf8',
+              borderRadius: 4
+            }
+          ]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'top' },
+            tooltip: { callbacks: { label: (c) => ` ${c.dataset.label}: COP $${c.raw} Billones` } }
+          },
+          scales: { y: { ticks: { callback: (v) => `$${v} B` } } }
+        }
+      });
+
+      // 2. Composición por Categoría (Doughnut)
+      const ctxCat = document.getElementById('chartEuromonitorCategories').getContext('2d');
+      new Chart(ctxCat, {
+        type: 'doughnut',
+        data: {
+          labels: ['Dog Food (Alimento Perros)', 'Cat Food (Alimento Gatos)', 'Pet Products & Aseo / Accesorios', 'Other Pet Food (Aves/Peces)'],
+          datasets: [{
+            data: [4.30, 2.52, 1.39, 0.09],
+            backgroundColor: ['#2563eb', '#ec4899', '#10b981', '#f59e0b']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom', labels: { boxWidth: 12, font: { size: 10 } } },
+            tooltip: { callbacks: { label: (c) => ` ${c.label}: COP $${c.raw} Billones (${((c.raw/8.30)*100).toFixed(1)}%)` } }
+          }
+        }
+      });
+
+      // 3. Cuotas por Empresa (Horizontal Bar)
+      const ctxComp = document.getElementById('chartEuromonitorCompanies').getContext('2d');
+      new Chart(ctxComp, {
+        type: 'bar',
+        data: {
+          labels: ['Italcol de Occidente', 'Alimentos Polar', 'Nestlé Purina', 'Solla S.A.', 'Mars / Royal Canin', 'Gabrica S.A.', 'Grupo Diana (Nutrion)', 'Otros'],
+          datasets: [{
+            label: 'Cuota de Mercado (%)',
+            data: [22.4, 13.8, 13.5, 12.1, 9.2, 4.5, 1.5, 23.0],
+            backgroundColor: ['#1e40af', '#0284c7', '#7c3aed', '#059669', '#d97706', '#dc2626', '#b45309', '#64748b'],
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          indexAxis: 'y',
+          plugins: { legend: { display: false } },
+          scales: { x: { ticks: { callback: (v) => `${v}%` } } }
+        }
+      });
+
+      // 4. Canales de Distribución (PolarArea / Doughnut)
+      const ctxChan = document.getElementById('chartEuromonitorChannels').getContext('2d');
+      new Chart(ctxChan, {
+        type: 'doughnut',
+        data: {
+          labels: ['Pet Shops & Supertiendas', 'Supermercados Tradicionales', 'Retail E-Commerce', 'Hard Discounters (D1/Ara)', 'Clubes (PriceSmart)', 'Otros Tradicionales'],
+          datasets: [{
+            data: [41.0, 21.0, 16.0, 12.0, 6.0, 4.0],
+            backgroundColor: ['#6366f1', '#3b82f6', '#10b981', '#f59e0b', '#ec4899', '#94a3b8']
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            legend: { position: 'bottom', labels: { boxWidth: 10, font: { size: 9 } } },
+            tooltip: { callbacks: { label: (c) => ` ${c.label}: ${c.raw}%` } }
+          }
+        }
+      });
+
+      // 5. Comparativa Regional en USD (Bar)
+      const ctxReg = document.getElementById('chartEuromonitorRegional').getContext('2d');
+      new Chart(ctxReg, {
+        type: 'bar',
+        data: {
+          labels: ['Norteamérica', 'Europa Occ.', 'Asia Pacífico', 'Latinoamérica', 'Europa Or.', 'Australasia'],
+          datasets: [{
+            label: 'Ventas Retail 2026 (USD Millones)',
+            data: [98252, 49906, 32684, 21857, 14445, 4674],
+            backgroundColor: '#4338ca',
+            borderRadius: 4
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: { legend: { display: false } },
+          scales: { y: { ticks: { callback: (v) => `$${v/1000}k M` } } }
+        }
+      });
+
+      populateIngredientsTable();
     }
 
     function initMagistralesCharts() {
