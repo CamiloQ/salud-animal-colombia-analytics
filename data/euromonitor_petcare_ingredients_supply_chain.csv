@@ -1,1 +1,501 @@
-﻿Geography,Ingredient_Category,Industry,Unit,2020,2021,2022,2023,2024,2025
+﻿0,1,2,3,4,5,6,7,8,9
+Western Europe,Acidulants,Pet Care,% Breakdown,02,02,02,02,02,02
+Western Europe,Acidulants,Pet Care,Tonnes,97.312,99.274,100.162,100.004,100.216,100.675
+Western Europe,Acetic Acid,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Acetic Acid,Pet Care,Tonnes,2.128,2.127,2.120,2.086,2.039,2.019
+Western Europe,Citric Acid,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Citric Acid,Pet Care,Tonnes,5.465,5.543,5.581,5.552,5.522,5.506
+Western Europe,Lactic Acid,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Lactic Acid,Pet Care,Tonnes,4.003,4.093,4.154,4.168,4.187,4.200
+Western Europe,Malic Acid,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Malic Acid,Pet Care,Tonnes,349,364,374,384,394,404
+Western Europe,Phosphoric Acid,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Phosphoric Acid,Pet Care,Tonnes,3.382,3.425,3.434,3.411,3.411,3.429
+Western Europe,Other Acidulants,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Other Acidulants,Pet Care,Tonnes,81.986,83.723,84.498,84.404,84.663,85.116
+Western Europe,Botanicals,Pet Care,% Breakdown,02,02,02,02,02,02
+Western Europe,Botanicals,Pet Care,Tonnes,137.185,139.657,140.729,140.325,140.457,140.935
+Western Europe,Essential Oils,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Essential Oils,Pet Care,Tonnes,443,459,470,472,468,456
+Western Europe,Flowers,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Flowers,Pet Care,Tonnes,33.548,34.086,34.244,34.107,34.151,34.265
+Western Europe,Plant Extracts,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Plant Extracts,Pet Care,Tonnes,45.885,46.753,47.200,47.106,47.210,47.438
+Western Europe,Roots,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Roots,Pet Care,Tonnes,21.768,22.169,22.360,22.300,22.279,22.348
+Western Europe,Other Botanicals,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Other Botanicals,Pet Care,Tonnes,35.541,36.192,36.455,36.341,36.348,36.428
+Western Europe,Carotenoids,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Carotenoids,Pet Care,Tonnes,13.691,13.966,14.126,14.123,14.138,14.180
+Western Europe,Beta-Carotene,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Beta-Carotene,Pet Care,Tonnes,2.545,2.616,2.662,2.682,2.724,2.780
+Western Europe,Lutein,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Lutein,Pet Care,Tonnes,1.733,1.763,1.772,1.768,1.753,1.754
+Western Europe,Lycopene,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Lycopene,Pet Care,Tonnes,6.700,6.797,6.844,6.814,6.824,6.846
+Western Europe,Other Carotenoids,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Carotenoids,Pet Care,Tonnes,2.712,2.790,2.848,2.859,2.837,2.800
+Western Europe,Cocoa Powder,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Cocoa Powder,Pet Care,Tonnes,280,295,304,310,309,310
+Western Europe,Colours,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Colours,Pet Care,Tonnes,9.673,9.878,9.978,10.001,10.080,10.190
+Western Europe,Natural Colours,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Natural Colours,Pet Care,Tonnes,05,05,05,05,05,05
+Western Europe,Synthetic Colours,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Synthetic Colours,Pet Care,Tonnes,00,00,00,00,00,00
+Western Europe,Other Colours,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Colours,Pet Care,Tonnes,9.668,9.873,9.973,9.996,10.075,10.185
+Western Europe,Cultures,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Cultures,Pet Care,Tonnes,8.063,8.236,8.342,8.372,8.434,8.525
+Western Europe,Bread and Bakery Cultures,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Bread and Bakery Cultures,Pet Care,Tonnes,946,973,991,1.003,1.003,991
+Western Europe,Dairy Cultures,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Dairy Cultures,Pet Care,Tonnes,284,313,331,343,377,418
+Western Europe,Meat Cultures,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Meat Cultures,Pet Care,Tonnes,71,71,71,70,70,70
+Western Europe,Pet Food Cultures,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Pet Food Cultures,Pet Care,Tonnes,1.130,1.162,1.178,1.190,1.189,1.193
+Western Europe,Other Cultures,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Cultures,Pet Care,Tonnes,5.633,5.717,5.771,5.766,5.794,5.853
+Western Europe,Emollients,Pet Care,% Breakdown,02,02,02,02,02,02
+Western Europe,Emollients,Pet Care,Tonnes,95.722,97.793,98.904,98.913,99.168,99.704
+Western Europe,Emollient Esters,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Emollient Esters,Pet Care,Tonnes,123,163,193,225,272,330
+Western Europe,Plant Oils,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Plant Oils,Pet Care,Tonnes,18.259,18.630,18.809,18.806,18.850,18.942
+Western Europe,Other Emollients,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Other Emollients,Pet Care,Tonnes,77.340,79.000,79.901,79.882,80.046,80.432
+Western Europe,Emulsifiers and Co-Emulsifiers,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Emulsifiers and Co-Emulsifiers,Pet Care,Tonnes,34.404,34.973,35.265,35.177,35.128,35.124
+Western Europe,Egg Yolk,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Egg Yolk,Pet Care,Tonnes,3.159,3.220,3.269,3.280,3.261,3.278
+Western Europe,Fatty Acid Esters,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Fatty Acid Esters,Pet Care,Tonnes,1.097,1.110,1.126,1.115,1.112,1.112
+Western Europe,Lecithin,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Lecithin,Pet Care,Tonnes,9.343,9.522,9.601,9.589,9.614,9.640
+Western Europe,Other Emulsifiers,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Emulsifiers,Pet Care,Tonnes,20.804,21.121,21.268,21.193,21.141,21.094
+Western Europe,Fats and Oils,Pet Care,% Breakdown,06,06,06,06,06,06
+Western Europe,Fats and Oils,Pet Care,Tonnes,362.263,368.945,371.982,370.967,371.528,373.014
+Western Europe,Animal Fat,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Animal Fat,Pet Care,Tonnes,65.944,67.215,67.864,67.708,67.671,67.709
+Western Europe,Animal Oils,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Animal Oils,Pet Care,Tonnes,31.452,31.998,32.230,32.172,32.214,32.363
+Western Europe,Fatty Acids,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Fatty Acids,Pet Care,Tonnes,52.694,53.599,53.975,53.705,53.754,53.928
+Western Europe,Hydrogenated Vegetable Oil,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Hydrogenated Vegetable Oil,Pet Care,Tonnes,282,289,290,291,297,305
+Western Europe,Medium-Chain Triglycerides,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Medium-Chain Triglycerides,Pet Care,Tonnes,18.495,18.753,18.863,18.716,18.630,18.601
+Western Europe,Vegetable Fat,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Vegetable Fat,Pet Care,Tonnes,46.103,46.963,47.342,47.253,47.363,47.609
+Western Europe,Vegetable Oil,Pet Care,% Breakdown,02,02,02,02,02,02
+Western Europe,Vegetable Oil,Pet Care,Tonnes,121.526,123.826,124.850,124.607,124.936,125.657
+Western Europe,Waxes,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Waxes,Pet Care,Tonnes,454,534,594,652,722,811
+Western Europe,Other Fats and Oils,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Fats and Oils,Pet Care,Tonnes,25.314,25.770,25.974,25.864,25.941,26.031
+Western Europe,Flavours,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Flavours,Pet Care,Tonnes,82.081,83.611,84.272,84.087,84.211,84.561
+Western Europe,Food/Beverage Flavours,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Food/Beverage Flavours,Pet Care,Tonnes,82.059,83.588,84.248,84.062,84.185,84.534
+Western Europe,Other Flavours,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Flavours,Pet Care,Tonnes,22,23,24,25,26,28
+Western Europe,Flavour Enhancers,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Flavour Enhancers,Pet Care,Tonnes,23.979,24.330,24.480,24.364,24.402,24.522
+Western Europe,Monosodium Glutamate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Monosodium Glutamate,Pet Care,Tonnes,4.943,5.004,5.032,5.008,5.007,4.990
+Western Europe,Nucleotides,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Nucleotides,Pet Care,Tonnes,1.259,1.271,1.278,1.278,1.288,1.304
+Western Europe,Hydrolysed Vegetable Protein,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Hydrolysed Vegetable Protein,Pet Care,Tonnes,9.822,9.945,9.992,9.930,9.882,9.891
+Western Europe,Yeast Extract,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Yeast Extract,Pet Care,Tonnes,1.814,1.865,1.879,1.887,1.930,1.984
+Western Europe,Other Flavour Enhancers,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Flavour Enhancers,Pet Care,Tonnes,6.141,6.245,6.299,6.261,6.296,6.352
+Western Europe,Flours,Pet Care,% Breakdown,05,05,05,05,05,05
+Western Europe,Flours,Pet Care,Tonnes,318.715,324.847,327.806,326.815,326.790,327.734
+Western Europe,Wheat Flour,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Wheat Flour,Pet Care,Tonnes,23.675,24.158,24.391,24.369,24.473,24.663
+Western Europe,Wholemeal Flour,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Wholemeal Flour,Pet Care,Tonnes,4.793,4.871,4.916,4.899,4.865,4.862
+Western Europe,Rye Flour,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Rye Flour,Pet Care,Tonnes,6.807,6.899,6.942,6.861,6.788,6.749
+Western Europe,Soya Flour,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Soya Flour,Pet Care,Tonnes,18.988,19.344,19.523,19.484,19.549,19.679
+Western Europe,Other Flours,Pet Care,% Breakdown,04,04,04,04,04,04
+Western Europe,Other Flours,Pet Care,Tonnes,264.453,269.574,272.035,271.203,271.116,271.781
+Western Europe,Milk,Pet Care,% Breakdown,02,02,02,02,02,02
+Western Europe,Milk,Pet Care,Tonnes,91.561,93.483,94.404,94.411,94.712,95.365
+Western Europe,Cheese Powder,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Cheese Powder,Pet Care,Tonnes,2.992,3.088,3.136,3.160,3.211,3.295
+Western Europe,Cream,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Cream,Pet Care,Tonnes,992,1.019,1.036,1.058,1.099,1.143
+Western Europe,Full Cream Milk Powder,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Full Cream Milk Powder,Pet Care,Tonnes,6.118,6.233,6.290,6.283,6.283,6.309
+Western Europe,Skimmed Milk,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Skimmed Milk,Pet Care,Tonnes,3.576,3.668,3.738,3.769,3.795,3.827
+Western Europe,Skimmed Milk Powder,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Skimmed Milk Powder,Pet Care,Tonnes,10.461,10.618,10.671,10.637,10.627,10.635
+Western Europe,Whey Powder,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Whey Powder,Pet Care,Tonnes,14.773,15.076,15.222,15.211,15.236,15.308
+Western Europe,Whole Milk,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Whole Milk,Pet Care,Tonnes,10.519,10.789,10.896,10.945,11.059,11.241
+Western Europe,Other Milk-Based Products,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Other Milk-Based Products,Pet Care,Tonnes,42.131,42.992,43.415,43.348,43.401,43.606
+Western Europe,Minerals,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Minerals,Pet Care,Tonnes,61.095,62.290,62.865,62.810,63.062,63.539
+Western Europe,Calcium,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Calcium,Pet Care,Tonnes,1.539,1.561,1.568,1.548,1.548,1.561
+Western Europe,Iron,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Iron,Pet Care,Tonnes,13,13,13,13,13,13
+Western Europe,Magnesium,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Magnesium,Pet Care,Tonnes,05,05,05,05,05,05
+Western Europe,Zinc,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Zinc,Pet Care,Tonnes,03,03,03,03,03,04
+Western Europe,Other Minerals,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Other Minerals,Pet Care,Tonnes,59.534,60.707,61.276,61.241,61.493,61.956
+Western Europe Polysaccharides and Oligosaccharides,Pet Care,% Breakdown,10,10,10,10,10,10,
+Western Europe Polysaccharides and Oligosaccharides,Pet Care,Tonnes,602.617,614.196,619.705,618.241,619.455,622.324,
+Western Europe,Agar,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Agar,Pet Care,Tonnes,2.293,2.349,2.375,2.381,2.385,2.398
+Western Europe,Alginates,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Alginates,Pet Care,Tonnes,2.374,2.421,2.439,2.417,2.393,2.352
+Western Europe,Beta-Glucan,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Beta-Glucan,Pet Care,Tonnes,975,988,978,966,977,988
+Western Europe,Carboxymethyl Cellulose,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Carboxymethyl Cellulose,Pet Care,Tonnes,1.537,1.599,1.642,1.659,1.722,1.808
+Western Europe,Carrageenans,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Carrageenans,Pet Care,Tonnes,9.506,9.630,9.701,9.610,9.501,9.416
+Western Europe,Carrageenans (Semi-Refined),Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Carrageenans (Semi-Refined),Pet Care,Tonnes,5.631,5.668,5.587,5.499,5.473,5.405
+Western Europe,Cellulose Ethers,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Cellulose Ethers,Pet Care,Tonnes,358,390,416,440,463,482
+Western Europe,Galactooligosaccharides,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Galactooligosaccharides,Pet Care,Tonnes,13.761,14.012,14.104,14.073,14.152,14.237
+Western Europe,Guar Gum,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Guar Gum,Pet Care,Tonnes,5.546,5.667,5.723,5.736,5.757,5.818
+Western Europe,Gum Arabic,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Gum Arabic,Pet Care,Tonnes,2.739,2.816,2.865,2.884,2.897,2.911
+Western Europe,Inulin,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Inulin,Pet Care,Tonnes,26.214,26.702,26.881,26.827,26.979,27.144
+Western Europe,Konjac,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Konjac,Pet Care,Tonnes,134,140,144,144,147,148
+Western Europe,Locust Bean Gum,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Locust Bean Gum,Pet Care,Tonnes,9.258,9.460,9.568,9.581,9.642,9.733
+Western Europe,Maltodextrin,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Maltodextrin,Pet Care,Tonnes,14.481,14.767,14.887,14.876,15.001,15.180
+Western Europe,Microcrystalline Cellulose,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Microcrystalline Cellulose,Pet Care,Tonnes,10.008,10.206,10.283,10.256,10.305,10.384
+Western Europe,Modified Starch,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Modified Starch,Pet Care,Tonnes,13.323,13.613,13.783,13.767,13.816,13.940
+Western Europe,Oligofructose,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Oligofructose,Pet Care,Tonnes,7.329,7.465,7.504,7.493,7.563,7.619
+Western Europe,Pectins,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Pectins,Pet Care,Tonnes,11.861,12.068,12.132,12.067,12.024,11.973
+Western Europe,Polydextrose,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Polydextrose,Pet Care,Tonnes,313,346,371,397,440,502
+Western Europe,Starch,Pet Care,% Breakdown,07,07,07,07,07,07
+Western Europe,Starch,Pet Care,Tonnes,437.628,445.961,450.071,448.915,449.447,451.308
+Western Europe,Xanthan Gum,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Xanthan Gum,Pet Care,Tonnes,3.635,3.745,3.817,3.847,3.866,3.896
+Western Europe,Other Polysaccharides and Oligosaccharides,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Polysaccharides and Oligosaccharides,Pet Care,Tonnes,23.715,24.185,24.436,24.409,24.507,24.684
+Western Europe,Phytoestrogens,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Phytoestrogens,Pet Care,Tonnes,478,488,498,498,501,505
+Western Europe,Isoflavones,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Isoflavones,Pet Care,Tonnes,474,485,495,495,498,502
+Western Europe,Resveratrol,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Resveratrol,Pet Care,Tonnes,03,03,03,03,03,03
+Western Europe,Preservatives/Antioxidants,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Preservatives/Antioxidants,Pet Care,Tonnes,81.769,83.471,84.215,84.079,84.560,85.291
+Western Europe,Ascorbic Acid and Derivatives (Preservatives/Antioxidants),Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Ascorbic Acid and Derivatives (Preservatives/Antioxidants),Pet Care,Tonnes,7.486,7.636,7.719,7.723,7.702,7.720
+Western Europe,Benzoic Acid/Benzoate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Benzoic Acid/Benzoate,Pet Care,Tonnes,3.668,3.784,3.848,3.859,3.924,4.023
+Western Europe,Butylated Hydroxylanisole (BHA),Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Butylated Hydroxylanisole (BHA),Pet Care,Tonnes,2.627,2.671,2.701,2.691,2.717,2.755
+Western Europe,Calcium Propionate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Calcium Propionate,Pet Care,Tonnes,1.239,1.273,1.290,1.299,1.315,1.334
+Western Europe,Nitrates/Nitrites,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Nitrates/Nitrites,Pet Care,Tonnes,1.147,1.168,1.175,1.165,1.174,1.185
+Western Europe,Potassium Sorbate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Potassium Sorbate,Pet Care,Tonnes,6.373,6.508,6.568,6.547,6.589,6.636
+Western Europe,Propyl Gallate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Propyl Gallate,Pet Care,Tonnes,1.712,1.757,1.791,1.799,1.804,1.806
+Western Europe,Rosemary Extract,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Rosemary Extract,Pet Care,Tonnes,2.888,2.957,2.994,3.006,3.011,3.043
+Western Europe,Sorbic Acid/Sorbate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Sorbic Acid/Sorbate,Pet Care,Tonnes,01,01,01,01,01,01
+Western Europe,Sulphites/Metabisulphites,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Sulphites/Metabisulphites,Pet Care,Tonnes,6.336,6.485,6.552,6.576,6.638,6.696
+Western Europe,Tocopherols,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Tocopherols,Pet Care,Tonnes,7.314,7.454,7.494,7.456,7.503,7.584
+Western Europe,Other Preservatives/Antioxidants,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Other Preservatives/Antioxidants,Pet Care,Tonnes,40.980,41.778,42.084,41.958,42.183,42.508
+Western Europe,Proteins,Pet Care,% Breakdown,07,07,07,07,07,07
+Western Europe,Proteins,Pet Care,Tonnes,439.796,448.099,452.309,451.459,451.944,453.783
+Western Europe,Animal Derived Proteins,Pet Care,% Breakdown,02,02,02,02,02,02
+Western Europe,Animal Derived Proteins,Pet Care,Tonnes,106.002,107.921,108.868,108.623,108.624,108.929
+Western Europe,Albumin,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Albumin,Pet Care,Tonnes,19,20,20,21,22,22
+Western Europe,Casein,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Casein,Pet Care,Tonnes,7.352,7.479,7.540,7.527,7.548,7.572
+Western Europe,Caseinates,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Caseinates,Pet Care,Tonnes,4.575,4.661,4.699,4.674,4.680,4.714
+Western Europe,Collagen peptides,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Collagen peptides,Pet Care,Tonnes,1.798,1.844,1.878,1.886,1.896,1.901
+Western Europe,Egg White,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Egg White,Pet Care,Tonnes,34.455,35.080,35.405,35.315,35.287,35.315
+Western Europe,Elastin,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Elastin,Pet Care,Tonnes,04,04,04,04,04,04
+Western Europe,Insect Protein,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Insect Protein,Pet Care,Tonnes,43.151,43.906,44.263,44.165,44.130,44.230
+Western Europe,Milk Protein Concentrate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Milk Protein Concentrate,Pet Care,Tonnes,13.124,13.372,13.486,13.461,13.512,13.636
+Western Europe,Whey Protein Concentrate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Whey Protein Concentrate,Pet Care,Tonnes,967,991,1.004,1.002,991,986
+Western Europe,Whey Protein Isolate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Whey Protein Isolate,Pet Care,Tonnes,558,566,569,569,556,549
+Western Europe,Non-Animal Derived Proteins,Pet Care,% Breakdown,04,04,04,04,04,04
+Western Europe,Non-Animal Derived Proteins,Pet Care,Tonnes,254.366,259.122,261.581,261.033,261.199,262.194
+Western Europe,Chickpea,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Chickpea,Pet Care,Tonnes,14.800,15.099,15.268,15.284,15.335,15.450
+Western Europe,Fava Bean,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Fava Bean,Pet Care,Tonnes,7.667,7.782,7.852,7.823,7.750,7.702
+Western Europe,Gluten,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Gluten,Pet Care,Tonnes,22.287,22.719,22.926,22.881,22.911,23.004
+Western Europe,Mycoprotein,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Mycoprotein,Pet Care,Tonnes,643,647,652,640,624,617
+Western Europe,Pea Protein Isolate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Pea Protein Isolate,Pet Care,Tonnes,4.349,4.414,4.463,4.465,4.427,4.418
+Western Europe,Pea Protein Concentrate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Pea Protein Concentrate,Pet Care,Tonnes,15.216,15.527,15.705,15.717,15.803,15.934
+Western Europe,Potato Protein,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Potato Protein,Pet Care,Tonnes,16.138,16.437,16.573,16.543,16.608,16.703
+Western Europe,Soy Protein Concentrate,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Soy Protein Concentrate,Pet Care,Tonnes,52.822,53.763,54.250,54.009,53.952,54.128
+Western Europe,Soy Protein Isolate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Soy Protein Isolate,Pet Care,Tonnes,26.697,27.166,27.416,27.327,27.297,27.333
+Western Europe,Other Non-Animal Derived Proteins,Pet Care,% Breakdown,02,02,02,02,02,02
+Western Europe,Other Non-Animal Derived Proteins,Pet Care,Tonnes,93.748,95.568,96.475,96.345,96.493,96.905
+Western Europe,Protein Hydrolysates,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Protein Hydrolysates,Pet Care,Tonnes,21.932,22.360,22.577,22.564,22.628,22.760
+Western Europe,Other Proteins,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Other Proteins,Pet Care,Tonnes,57.496,58.697,59.283,59.239,59.493,59.900
+Western Europe,Raising Agents,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Raising Agents,Pet Care,Tonnes,17.832,18.233,18.442,18.491,18.584,18.717
+Western Europe,Ammonium Bicarbonate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Ammonium Bicarbonate,Pet Care,Tonnes,48,48,47,47,47,47
+Western Europe,Baking Powder,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Baking Powder,Pet Care,Tonnes,1.424,1.463,1.487,1.480,1.463,1.454
+Western Europe,Disodium Diphosphate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Disodium Diphosphate,Pet Care,Tonnes,37,38,42,42,42,42
+Western Europe,Monocalcium Phosphate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Monocalcium Phosphate,Pet Care,Tonnes,3.043,3.125,3.176,3.198,3.239,3.288
+Western Europe,Sodium Bicarbonate,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Sodium Bicarbonate,Pet Care,Tonnes,3.350,3.409,3.440,3.436,3.415,3.404
+Western Europe,Yeast,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Yeast,Pet Care,Tonnes,7.679,7.849,7.921,7.940,8.010,8.107
+Western Europe,Other Raising Agents,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Raising Agents,Pet Care,Tonnes,2.252,2.301,2.331,2.348,2.369,2.376
+Western Europe,Skin Benefit Agents,Pet Care,% Breakdown,02,02,02,02,02,02
+Western Europe,Skin Benefit Agents,Pet Care,Tonnes,113.112,115.368,116.369,116.159,116.614,117.311
+Western Europe,Amino acids,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Amino acids,Pet Care,Tonnes,79.953,81.456,82.053,81.835,82.114,82.535
+Western Europe,Collagen,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Collagen,Pet Care,Tonnes,18.130,18.557,18.815,18.819,18.904,19.060
+Western Europe,Hyaluronic acid and its salts,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Hyaluronic acid and its salts,Pet Care,Tonnes,2.139,2.178,2.187,2.178,2.190,2.199
+Western Europe,Glycolic Acid,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Glycolic Acid,Pet Care,Tonnes,27,37,48,57,70,88
+Western Europe,Peptides,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Peptides,Pet Care,Tonnes,1.178,1.220,1.236,1.245,1.234,1.232
+Western Europe,Other Skin Benefit Agents,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Skin Benefit Agents,Pet Care,Tonnes,11.687,11.919,12.031,12.025,12.102,12.197
+Western Europe,Skin Lighteners,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Skin Lighteners,Pet Care,Tonnes,27.315,27.814,28.025,27.997,28.088,28.242
+Western Europe,Niacinamide,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Niacinamide,Pet Care,Tonnes,19.565,19.952,20.131,20.126,20.200,20.332
+Western Europe,Other Skin Lighteners,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Skin Lighteners,Pet Care,Tonnes,7.750,7.862,7.894,7.871,7.887,7.909
+Western Europe,Solvents,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Solvents,Pet Care,Tonnes,28.661,29.200,29.451,29.391,29.423,29.570
+Western Europe,Esters,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Esters,Pet Care,Tonnes,1.471,1.468,1.459,1.416,1.380,1.357
+Western Europe,Glycerol (Solvent),Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Glycerol (Solvent),Pet Care,Tonnes,16.041,16.381,16.542,16.563,16.627,16.741
+Western Europe,Propylene glycol (Solvent),Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Propylene glycol (Solvent),Pet Care,Tonnes,10.426,10.636,10.742,10.726,10.750,10.816
+Western Europe,Other Solvents,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Solvents,Pet Care,Tonnes,722,716,709,685,666,656
+Western Europe,Sunscreens,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Sunscreens,Pet Care,Tonnes,2.812,2.874,2.902,2.916,2.932,2.963
+Western Europe,Zinc Oxide,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Zinc Oxide,Pet Care,Tonnes,1.943,1.982,1.995,1.997,2.002,2.016
+Western Europe,Other Sunscreens,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Sunscreens,Pet Care,Tonnes,869,892,908,918,930,947
+Western Europe,Sweeteners,Pet Care,% Breakdown,03,03,03,03,03,03
+Western Europe,Sweeteners,Pet Care,Tonnes,171.103,174.404,176.071,175.801,176.049,176.772
+Western Europe,Sugars and Bulk Sweeteners,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Sugars and Bulk Sweeteners,Pet Care,Tonnes,88.385,89.990,90.776,90.577,90.660,91.011
+Western Europe,Brown Sugar,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Brown Sugar,Pet Care,Tonnes,243,253,258,259,263,265
+Western Europe,Dextrose,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Dextrose,Pet Care,Tonnes,18.886,19.176,19.294,19.181,19.158,19.194
+Western Europe,Fructose,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Fructose,Pet Care,Tonnes,1.897,1.924,1.930,1.913,1.898,1.884
+Western Europe,Glucose/Corn Syrup,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Glucose/Corn Syrup,Pet Care,Tonnes,15.952,16.194,16.318,16.237,16.227,16.246
+Western Europe,Inositol,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Inositol,Pet Care,Tonnes,4.396,4.499,4.577,4.619,4.624,4.647
+Western Europe,Invert Sugar,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Invert Sugar,Pet Care,Tonnes,263,277,283,285,290,292
+Western Europe,Isomaltulose,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Isomaltulose,Pet Care,Tonnes,269,282,289,293,288,287
+Western Europe,Lactose,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Lactose,Pet Care,Tonnes,12.539,12.791,12.923,12.937,13.057,13.223
+Western Europe,Maltose Syrup,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Maltose Syrup,Pet Care,Tonnes,01,01,01,01,01,01
+Western Europe,Molasses,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Molasses,Pet Care,Tonnes,6.956,7.117,7.200,7.200,7.229,7.288
+Western Europe,Sorbitol (Sweetener),Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Sorbitol (Sweetener),Pet Care,Tonnes,18.036,18.370,18.515,18.470,18.470,18.481
+Western Europe,Sucrose,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Sucrose,Pet Care,Tonnes,8.946,9.106,9.187,9.184,9.155,9.203
+Western Europe,Other Sweeteners,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Other Sweeteners,Pet Care,Tonnes,82.718,84.413,85.294,85.224,85.389,85.761
+Western Europe,Vitamins and Derivatives,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Vitamins and Derivatives,Pet Care,Tonnes,29,30,30,29,30,30
+Western Europe,Pro-Vitamin B (Panthenol),Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Pro-Vitamin B (Panthenol),Pet Care,Tonnes,00,00,00,00,00,00
+Western Europe,Vitamin A and derivatives,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Vitamin A and derivatives,Pet Care,Tonnes,00,00,00,00,00,00
+Western Europe,Vitamin B Group,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Vitamin B Group,Pet Care,Tonnes,28,29,29,28,29,29
+Western Europe,Vitamin C,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Vitamin C,Pet Care,Tonnes,00,00,00,00,00,00
+Western Europe,Vitamin E,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Vitamin E,Pet Care,Tonnes,01,01,01,01,01,01
+Western Europe,Other Vitamins and Derivatives,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Vitamins and Derivatives,Pet Care,Tonnes,00,00,00,00,00,00
+Western Europe,Miscellaneous Ingredients,Pet Care,% Breakdown,18,18,18,18,18,18
+Western Europe,Miscellaneous Ingredients,Pet Care,Tonnes,1.105.545 1.127.995 1.139.201 1.138.246 1.141.348 1.147.358,,,,,
+Western Europe,Malt Extract,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Malt Extract,Pet Care,Tonnes,28,29,30,31,31,32
+Western Europe,Soy Extract,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Soy Extract,Pet Care,Tonnes,5.869,5.959,6.000,5.943,5.893,5.852
+Western Europe,Taurine,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Taurine,Pet Care,Tonnes,4.215,4.315,4.355,4.366,4.434,4.511
+Western Europe,Other Miscellaneous Ingredients,Pet Care,% Breakdown,17,17,17,17,17,17
+Western Europe,Other Miscellaneous Ingredients,Pet Care,Tonnes,1.095.433 1.117.692 1.128.816 1.127.907 1.130.991 1.136.964,,,,,
+Western Europe,Commodities,Pet Care,% Breakdown,36,36,36,36,36,36
+Western Europe,Commodities,Pet Care,Tonnes,2.264.101 2.308.062 2.328.253 2.324.319 2.328.443 2.339.924,,,,,
+Western Europe,Aqua/Water,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Aqua/Water,Pet Care,Tonnes,19.463,19.873,20.010,19.991,20.061,20.225
+Western Europe,Cereals,Pet Care,% Breakdown,09,09,09,09,09,09
+Western Europe,Cereals,Pet Care,Tonnes,553.700,564.270,569.431,568.434,569.544,572.393
+Western Europe,Coconut Water,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Coconut Water,Pet Care,Tonnes,3.803,3.898,3.977,4.019,4.009,3.980
+Western Europe,Egg,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Egg,Pet Care,Tonnes,11.549,11.780,11.871,11.853,11.912,12.015
+Western Europe,Fish,Pet Care,% Breakdown,03,03,03,03,03,03
+Western Europe,Fish,Pet Care,Tonnes,165.596,168.898,170.388,170.165,171.038,172.347
+Western Europe,Fruit,Pet Care,% Breakdown,04,04,04,04,04,04
+Western Europe,Fruit,Pet Care,Tonnes,270.985,276.301,278.546,277.961,278.209,279.374
+Western Europe,Fruit Juice,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Fruit Juice,Pet Care,Tonnes,39.717,40.658,41.259,41.389,41.580,41.944
+Western Europe,Herbs/Spices,Pet Care,% Breakdown,02,02,02,02,02,02
+Western Europe,Herbs/Spices,Pet Care,Tonnes,152.962,155.777,157.092,156.815,156.956,157.663
+Western Europe,Honey,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Honey,Pet Care,Tonnes,8.651,8.820,8.942,8.951,8.955,8.988
+Western Europe,Hops,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Hops,Pet Care,Tonnes,2.733,2.797,2.837,2.855,2.847,2.861
+Western Europe,Malt,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Malt,Pet Care,Tonnes,23.690,24.170,24.387,24.353,24.432,24.555
+Western Europe,Meat,Pet Care,% Breakdown,05,05,05,05,05,05
+Western Europe,Meat,Pet Care,Tonnes,322.982,329.576,332.353,331.833,332.713,334.794
+Western Europe,Nuts,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Nuts,Pet Care,Tonnes,69.140,70.338,70.976,70.820,70.601,70.563
+Western Europe,Palatant,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Palatant,Pet Care,Tonnes,32.256,32.886,33.152,33.087,33.225,33.451
+Western Europe,Potato Products,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Potato Products,Pet Care,Tonnes,24.891,25.366,25.572,25.538,25.590,25.710
+Western Europe,Tea,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Tea,Pet Care,Tonnes,2.257,2.317,2.342,2.352,2.377,2.406
+Western Europe,Vegetables,Pet Care,% Breakdown,06,06,06,06,06,06
+Western Europe,Vegetables,Pet Care,Tonnes,385.942,393.317,396.553,395.663,395.961,397.460
+Western Europe,Vinegar,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Vinegar,Pet Care,Tonnes,2.130,2.163,2.168,2.160,2.169,2.159
+Western Europe,Other Commodities,Pet Care,% Breakdown,03,03,03,03,03,03
+Western Europe,Other Commodities,Pet Care,Tonnes,171.655,174.858,176.397,176.079,176.266,177.037
+Western Europe,Adaptogens,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Adaptogens,Pet Care,Tonnes,3.508,3.564,3.604,3.599,3.605,3.625
+Western Europe,Cannabinoids,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Cannabinoids,Pet Care,Tonnes,196,203,206,205,203,204
+Western Europe,Nootropics,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Nootropics,Pet Care,Tonnes,4.565,4.643,4.682,4.656,4.641,4.615
+Western Europe,Prebiotics,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Prebiotics,Pet Care,Tonnes,77.109,78.544,79.073,78.912,79.361,79.847
+Western Europe,Probiotics,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Probiotics,Pet Care,Tonnes,400,407,411,409,408,408
+Western Europe,Postbiotics,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Postbiotics,Pet Care,Tonnes,5.801,5.908,5.992,5.992,6.032,6.072
+Western Europe,Algae and Seaweed,Pet Care,% Breakdown,01,01,01,01,01,01
+Western Europe,Algae and Seaweed,Pet Care,Tonnes,31.772,32.387,32.676,32.641,32.705,32.840
+Western Europe,Algal Oil,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Algal Oil,Pet Care,Tonnes,2.315,2.360,2.369,2.370,2.414,2.458
+Western Europe,Cordyceps,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Cordyceps,Pet Care,Tonnes,04,05,05,05,05,05
+Western Europe,Spirulina,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Spirulina,Pet Care,Tonnes,3.015,3.059,3.053,3.035,3.042,3.057
+Western Europe,Other Algae and Seaweed,Pet Care,% Breakdown,00,00,00,00,00,00
+Western Europe,Other Algae and Seaweed,Pet Care,Tonnes,26.437,26.963,27.250,27.231,27.244,27.320
+Western Europe,Total Ingredients,Pet Care,% Breakdown,100,100,100,100,100,100
+Western Europe,Total Ingredients,Pet Care,Tonnes,6.314.544 6.437.466 6.495.731 6.484.715 6.497.560 6.528.777,,,,,
+Eastern Europe,Acidulants,Pet Care,% Breakdown,01,01,01,01,01,01
+Eastern Europe,Acidulants,Pet Care,Tonnes,16.333,17.250,17.683,17.854,18.837,19.988
+Eastern Europe,Acetic Acid,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Acetic Acid,Pet Care,Tonnes,103,111,113,117,126,133
+Eastern Europe,Citric Acid,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Citric Acid,Pet Care,Tonnes,1.370,1.446,1.472,1.479,1.532,1.599
+Eastern Europe,Lactic Acid,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Lactic Acid,Pet Care,Tonnes,475,496,511,506,515,518
+Eastern Europe,Malic Acid,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Malic Acid,Pet Care,Tonnes,336,352,364,376,430,477
+Eastern Europe,Phosphoric Acid,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Phosphoric Acid,Pet Care,Tonnes,623,657,662,668,679,696
+Eastern Europe,Other Acidulants,Pet Care,% Breakdown,01,01,01,01,01,01
+Eastern Europe,Other Acidulants,Pet Care,Tonnes,13.427,14.188,14.560,14.709,15.555,16.565
+Eastern Europe,Botanicals,Pet Care,% Breakdown,02,02,02,02,02,02
+Eastern Europe,Botanicals,Pet Care,Tonnes,31.287,33.173,33.935,33.916,35.520,37.353
+Eastern Europe,Flowers,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Flowers,Pet Care,Tonnes,5.529,5.848,5.973,5.986,6.266,6.561
+Eastern Europe,Plant Extracts,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Plant Extracts,Pet Care,Tonnes,8.881,9.421,9.658,9.653,10.171,10.783
+Eastern Europe,Roots,Pet Care,% Breakdown,01,01,01,01,01,01
+Eastern Europe,Roots,Pet Care,Tonnes,11.657,12.388,12.672,12.675,13.302,14.021
+Eastern Europe,Other Botanicals,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Other Botanicals,Pet Care,Tonnes,5.220,5.516,5.632,5.603,5.782,5.988
+Eastern Europe,Carotenoids,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Carotenoids,Pet Care,Tonnes,4.574,4.839,4.952,4.999,5.285,5.569
+Eastern Europe,Beta-Carotene,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Beta-Carotene,Pet Care,Tonnes,2.409,2.543,2.604,2.635,2.784,2.943
+Eastern Europe,Lutein,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Lutein,Pet Care,Tonnes,437,461,467,466,474,487
+Eastern Europe,Lycopene,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Lycopene,Pet Care,Tonnes,503,533,555,556,612,669
+Eastern Europe,Other Carotenoids,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Other Carotenoids,Pet Care,Tonnes,1.226,1.302,1.326,1.342,1.415,1.470
+Eastern Europe,Cocoa Powder,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Cocoa Powder,Pet Care,Tonnes,21,23,24,25,26,27
+Eastern Europe,Colours,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Colours,Pet Care,Tonnes,5.121,5.417,5.534,5.542,5.794,6.069
+Eastern Europe,Natural Colours,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Natural Colours,Pet Care,Tonnes,01,01,01,02,02,02
+Eastern Europe,Synthetic Colours,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Synthetic Colours,Pet Care,Tonnes,00,00,00,00,00,00
+Eastern Europe,Other Colours,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Other Colours,Pet Care,Tonnes,5.120,5.416,5.532,5.540,5.793,6.067
+Eastern Europe,Cultures,Pet Care,% Breakdown,00,00,00,00,00,00
+Eastern Europe,Cultures,Pet Care,Tonnes,1.166,1.229,1.250,1.259,1.291,1.332
