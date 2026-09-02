@@ -30,17 +30,21 @@
     backdrop-filter: blur(2px);
   }
   .tab-active {
-    background-color: #2563eb;
+    background-color: #1d4ed8;
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 700;
+    box-shadow: 0 2px 4px rgba(29, 78, 216, 0.25);
   }
   .tab-inactive {
-    background-color: #1e293b;
-    color: #94a3b8;
+    background-color: #ffffff;
+    color: #334155;
+    font-weight: 600;
+    border: 1px solid #cbd5e1;
   }
   .tab-inactive:hover {
-    background-color: #334155;
-    color: #ffffff;
+    background-color: #f1f5f9;
+    color: #1d4ed8;
+    border-color: #93c5fd;
   }
   ::-webkit-scrollbar {
     width: 6px;
@@ -96,15 +100,18 @@
   </header>
 
   <!-- Navigation Tabs -->
-  <nav class="flex flex-wrap gap-2 mb-5 p-1.5 bg-slate-800 rounded-lg max-w-fit">
-    <button onclick="switchTab('tab-medicamentos')" id="btn-tab-meds" class="tab-active px-4 py-2 rounded text-xs transition flex items-center gap-2">
-      <span>1. Medicamentos y Biológicos (8.129)</span>
+  <nav class="flex flex-wrap items-center gap-3 mb-6 p-2 bg-slate-200/90 border border-slate-300 rounded-xl shadow-sm max-w-fit">
+    <button onclick="switchTab('tab-medicamentos')" id="btn-tab-meds" class="tab-active px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer">
+      <span class="tracking-tight">1. Medicamentos y Biológicos</span>
+      <span class="bg-blue-900/30 text-white text-xs px-2 py-0.5 rounded-full font-bold">8.129</span>
     </button>
-    <button onclick="switchTab('tab-cosmeticos')" id="btn-tab-cosm" class="tab-inactive px-4 py-2 rounded text-xs transition flex items-center gap-2">
-      <span>2. Cosméticos e Higiene Animal (1.506)</span>
+    <button onclick="switchTab('tab-cosmeticos')" id="btn-tab-cosm" class="tab-inactive px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer">
+      <span class="tracking-tight">2. Cosméticos e Higiene Animal</span>
+      <span class="bg-slate-200 text-slate-700 text-xs px-2 py-0.5 rounded-full font-bold">1.506</span>
     </button>
-    <button onclick="switchTab('tab-magistrales')" id="btn-tab-mag" class="tab-inactive px-4 py-2 rounded text-xs transition flex items-center gap-2">
-      <span>3. Laboratorios Magistrales BPE (12)</span>
+    <button onclick="switchTab('tab-magistrales')" id="btn-tab-mag" class="tab-inactive px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer">
+      <span class="tracking-tight">3. Laboratorios Magistrales BPE</span>
+      <span class="bg-slate-200 text-slate-700 text-xs px-2 py-0.5 rounded-full font-bold">12</span>
     </button>
   </nav>
 
@@ -687,19 +694,19 @@
       tabCosm.classList.add('hidden');
       tabMag.classList.add('hidden');
 
-      btnMeds.className = 'tab-inactive px-4 py-2 rounded text-xs transition flex items-center gap-2';
-      btnCosm.className = 'tab-inactive px-4 py-2 rounded text-xs transition flex items-center gap-2';
-      btnMag.className = 'tab-inactive px-4 py-2 rounded text-xs transition flex items-center gap-2';
+      btnMeds.className = 'tab-inactive px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
+      btnCosm.className = 'tab-inactive px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
+      btnMag.className = 'tab-inactive px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
 
       if (tabId === 'tab-medicamentos') {
         tabMeds.classList.remove('hidden');
-        btnMeds.className = 'tab-active px-4 py-2 rounded text-xs transition flex items-center gap-2';
+        btnMeds.className = 'tab-active px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
       } else if (tabId === 'tab-cosmeticos') {
         tabCosm.classList.remove('hidden');
-        btnCosm.className = 'tab-active px-4 py-2 rounded text-xs transition flex items-center gap-2';
+        btnCosm.className = 'tab-active px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
       } else {
         tabMag.classList.remove('hidden');
-        btnMag.className = 'tab-active px-4 py-2 rounded text-xs transition flex items-center gap-2';
+        btnMag.className = 'tab-active px-5 py-2.5 rounded-lg text-sm sm:text-base transition flex items-center gap-2 cursor-pointer';
       }
     }
 
